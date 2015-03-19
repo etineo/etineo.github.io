@@ -5,6 +5,6 @@ $(document).ready(function(){
     });
   $('#empty').on('click',function(){
     var item = $('input').val();
-    $('ul').empty('<li>'+item+"</li>");
+    $('ul').empty();
   });
 });
