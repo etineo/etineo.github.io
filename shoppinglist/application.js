@@ -1,7 +1,9 @@
 $(document).ready(function(){
-  $('button').on('click',function(){
+  $('#enter').on('click',function(){
     var item = $('input').val();
     $('ul').append('<li>'+item+"</li>");
+  $('#empty').on('click',function(){
+    var item = $('input').val();
+    $('ul').empty('<li>'+item+"</li>");
   });
 });
-
