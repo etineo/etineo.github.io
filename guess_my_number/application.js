@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
-math.floor(math.random()*100)
+math.floor(math.random()*100){
   
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
@@ -21,4 +21,4 @@ math.floor(math.random()*100)
       //update the 'feedback' paragraph to tell them to guess higher
     
   });
-});
+}});
