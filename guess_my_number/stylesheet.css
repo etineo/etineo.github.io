@@ -1,3 +1,7 @@
+h1, h3, p{
+  #FF00FF
+}
+
 input, button {
   text-align: center;
   display:inline-block;
