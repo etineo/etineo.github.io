@@ -2,10 +2,6 @@ h1, h3, p{
   color: #FF00FF
 }
 
-input, button {
-  text-align: center;
-  display:inline-block;
-}
 
 #input_holder {
   width: 235px;
