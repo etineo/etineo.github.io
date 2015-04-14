@@ -14,18 +14,18 @@ $(document).ready(function(){
     if(guess===chooseNumber ){
       //what happens if the guess is correct?
       $('#feedback').val("");
-      $('#feedback').append("You Are Correct");
+      $('#feedback').append("You're Right!!!!!!!");
       chooseNumber = Math.floor(Math.random()* 100);
     }
     //if the user guessed too high...
     if ( guess > chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess lower
-      $('#feedback').append( "guess lower" );
+      $('#feedback').append( "guess lower!" );
     }
     //otherwise, the user guessed too low...
     if  ( guess < chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess higher
-    $('#feedback').append( "guess higher" );
+    $('#feedback').append( "guess higher!" );
     }
     $('input').val(""); 
     $('#guess_counter').empty();
