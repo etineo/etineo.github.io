@@ -31,3 +31,7 @@ $(document).ready(function(){
     $('#guess_counter').empty();
     $("#guess_counter").append("Guesses so far: " +  numberofGuesses);
     
+    
+    
+  });
+});
