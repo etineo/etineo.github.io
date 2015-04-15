@@ -5,7 +5,7 @@ $(document).ready(function(){
   
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
-    numberofGuesses= numberofGuesses + 1 ;
+    numberofGuesses= numberofGuesses + 1 ; // counting the number of guesses 
     //save their guess as a variable
     var guess = parseInt($("input").val());
     $('#feedback').fadeOut().empty().fadeIn();
@@ -29,7 +29,7 @@ $(document).ready(function(){
     }
     $('input').val(""); 
     $('#guess_counter').empty();
-    $("#guess_counter").append("Guesses so far: " +  numberofGuesses);
+    $("#guess_counter").append("Guesses so far: " +  numberofGuesses); 
     
     
     
