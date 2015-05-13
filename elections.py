@@ -2,11 +2,11 @@ from random import randint #random
 wins = 0 #variable wins 
 for i in range(10000): # repeat 10000
   regions = 0 #varaible regions
-  if radint(0,100)<= 87: #randomized number less than 87
+  if randint(0,100)<= 87: #randomized number less than 87
     regions = regions +1 # added regions for wins 
-  if radint(0,100)<= 65: #randomized number less than 65
+  if randint(0,100)<= 65: #randomized number less than 65
     regions = regions +1 
-  if radint(0,100)<= 17: #randomized number less than 17
+  if randint(0,100)<= 17: #randomized number less than 17
     regions = regions +1
   if regions >= 2: # number of events won greater than/equal to 2
     wins = wins + 1 # whole win of elections +1 
