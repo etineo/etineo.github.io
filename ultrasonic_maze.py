@@ -26,5 +26,9 @@ while 1<2:
   stop()
   if randint(0,1) == 0:
     turn_left()
+    if us_dist(15) > 20:
+      turn_right()
   else:
     turn_right()
+    if us_dist(15) > 20:
+      turn_right()
