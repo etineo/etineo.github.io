@@ -28,7 +28,9 @@ while 1<2:
     turn_left()
     if us_dist(15) > 20:
       turn_right()
+      turn_right()
   else:
     turn_right()
     if us_dist(15) > 20:
-      turn_right()
+      turn_left()
+      turn_left()
