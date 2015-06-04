@@ -1,9 +1,10 @@
 from gopigo import *
 import time
 from random import randint
+enable_servo()
+enable_encoders()
 left_distance = 0
 right_distance = 0
-
 distance_to_stop=20
 print "Press ENTER to Start"
 raw_input()
@@ -21,10 +22,10 @@ def turn_left():
   time.sleep(.1)
   left()
   time.sleep(2)
-  
+
+servo(90)
 while 1<2:
   while us_dist(15) > 20:
-    print "Dist:", dist,'cm'
     fwd()
   stop()
   servo(0)
