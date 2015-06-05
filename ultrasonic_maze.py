@@ -29,12 +29,16 @@ while 1<2:
     fwd()
   stop()
   servo(0)
+  time.sleep(1)
   left_distance = us_dist(15)
   servo(180)
+  time.sleep(1)
   right_distance = us_dist(15)
   if left_distance > right_distance:
     turn_left()
     servo(90)
+    time.sleep(1)
   else:
     turn_right()
     servo(90)
+    time.sleep(1)
